@@ -1,0 +1,15 @@
+= {page-title}
+:showtitle:
+:permalink: /talos
+:page-title: Talos
+:page-root: ../
+:page-description: An interactive map of Talos
+
+{page-description}
+
+++++
+<div id="map" style="height:500px"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+<script src="./yvelle.js"></script>
+++++

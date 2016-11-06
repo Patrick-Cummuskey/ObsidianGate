@@ -4,4 +4,8 @@
 :page-title: Obsidian Gate
 :page-description: Some stuff for things
 
+{page-description}
+
+== Interactive Maps
 * link:./yvelle[Yvelle]
+* link:./talos[Talos]
