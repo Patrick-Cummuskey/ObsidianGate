@@ -1,7 +1,7 @@
-= Obsidian Gate
+= {page-title}
 :showtitle:
 :page-liquid:
 :page-title: Obsidian Gate
 :page-description: Some stuff for things
 
-//
+* link:./yvelle[Yvelle]
