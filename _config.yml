@@ -1,0 +1,23 @@
+title: Obsidian Gate
+description: A page about some stuff.
+exclude:
+  - LICENSE.adoc
+  - README.adoc
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+include:
+  - .travis.yml
+keep_files:
+  - .git
+  - CNAME
+asciidoc: {}
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    - idseparator=_
+    - source-highlighter=coderay
+    - icons=font
+gems:
+  - jekyll-asciidoc
