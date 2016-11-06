@@ -1,6 +1,6 @@
 /* globals L */
 
-const map = L.map('yvelle', {
+const map = L.map('map', {
 	crs: L.CRS.Simple
 });
 
@@ -18,7 +18,7 @@ function xy(x, y) {
 
 // Define named/reused points here, then reference them later
 const points = {
-	'Chantry': xy(200, 200)
+	'Chantry': xy(382, 550)
 };
 
 // http://leafletjs.com/reference.html#marker
@@ -56,9 +56,10 @@ L.circle(points['Chantry'], {
 	color: 'red',
 	fillColor: '#f03',
 	fillOpacity: 0.5,
-	radius: 500
+	radius: 35,
+	weight: 1
 
-}).addTo(map).bindPopup('Zone of control');
+}).addTo(map).bindPopup('Zone of Terror');
 
 // ======= END DEFINITION SECTION =========
 
