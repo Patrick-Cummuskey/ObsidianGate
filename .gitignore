@@ -4,3 +4,7 @@
 /tmp/
 *.bundle
 Gemfile.lock
+.idea
+*.iml
+*.ipr
+*.iws

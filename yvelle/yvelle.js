@@ -18,11 +18,13 @@ function xy(x, y) {
 
 const name_chantry = 'Emberhill';
 const name_latherondian_ruins = 'Zahradan';
+const name_plumwood_isle = 'Plumwood Isle';
 
 // Define named/reused points here, then reference them later
 const points = {
 	[name_chantry]: xy(382, 550),
 	[name_latherondian_ruins]: xy(407, 560),
+	[name_plumwood_isle]: xy(362, 570),
 	'Estate NE extent': xy(393, 554),
 	'Estate SE extent': xy(395, 530),
 	'Estate SS extent': xy(380, 530)
@@ -47,16 +49,9 @@ L.circle(points[name_latherondian_ruins], {
 }).addTo(map).bindPopup(name_latherondian_ruins);
 
 // http://leafletjs.com/reference.html#marker
-L.marker(points[name_chantry], {
-	// http://leafletjs.com/reference.html#marker-options
-	color: 'purple'
-
-}).addTo(map).bindPopup(name_chantry);
-
-L.marker(points[name_latherondian_ruins], {
-	color: 'purple'
-
-}).addTo(map).bindPopup(name_latherondian_ruins);
+L.marker(points[name_chantry]).addTo(map).bindPopup(name_chantry);
+L.marker(points[name_latherondian_ruins]).addTo(map).bindPopup(name_latherondian_ruins);
+L.marker(points[name_plumwood_isle]).addTo(map).bindPopup(name_plumwood_isle);
 
 // ======= END DEFINITION SECTION =========
 
